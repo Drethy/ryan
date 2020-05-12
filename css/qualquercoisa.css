@@ -1,0 +1,36 @@
+body{
+    background-size: auto 100vh;
+    color: whitesmoke;
+    font-family: sans-serif;  
+    background-image:url('https://i.pinimg.com/originals/b2/b0/2f/b2b02f3b94075334edb07f8e6f8c0d11.gif'); 
+  }
+  .menu {
+    background-color: #0D212F;
+    padding:0.25px;   
+  }
+  a{background-color: rgba(13,33,47);
+    color: whitesmoke;
+    padding:12px;
+    text-decoration:none;
+    transition: 0.5s;    
+  }
+  a:hover {
+    text-decoration : underline;
+    background-color: #054f77;
+      border: solid;
+  }
+  .menu ul{
+    display: flex;
+    justify-content:space-around;
+  } 
+  .menu li {
+    list-style : none;
+  }
+  .site-title,
+  .site-subtitle{
+    text-align: center;
+    color : white;
+  }
+  .site-subtitle{
+    font-style: italic;
+  }
